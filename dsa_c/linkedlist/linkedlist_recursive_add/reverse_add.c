@@ -44,6 +44,6 @@ int sums(struct node* l1){
     if(l1->next==NULL){
         return l1->data;
     }
-    value=sum(l1->next)*10+value;
+    value=sums(l1->next)*10+value;
     return value;
 }

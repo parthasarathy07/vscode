@@ -58,15 +58,15 @@ void travis()
 
 void reverse()
 {
-    struct  node * previous,*next,*current;
-    current=head;
+    struct  node * previous,*next,*temp;
+    temp=head;
     previous=NULL;
-    while (current!=NULL)
+    while (temp!=NULL)
     {
-        next=current->next;
-        current->next = previous;
-        previous=current;
-        current=next;
+        next=temp->next;
+        temp->next = previous;
+        previous=temp;
+        temp=next;
     }
     head=previous;
 }

@@ -1,0 +1,26 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services {
+    background: #f8f9fa;
+    padding: 50px 0;
+}
+
+.what-we-do {
+    background: #ffcc00;
+    color: black;
+    padding: 50px 0;
+}
+
+.core-values {
+    padding: 50px 0;
+}

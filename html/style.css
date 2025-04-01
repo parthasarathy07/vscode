@@ -1,0 +1,19 @@
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(11, 194, 255);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    background-color: rgb(255, 0, 0);
+    justify-content: end;
+    border-radius: 100%;
+}

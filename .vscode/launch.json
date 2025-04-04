@@ -2,6 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "arr1",
+            "request": "launch",
+            "mainClass": "arr1",
+            "projectName": "vscode_b3be5c7e"
+        },
+        {
             "name": "C/C++: g++ build and debug active file",
             "type": "cppdbg",
             "request": "launch",
